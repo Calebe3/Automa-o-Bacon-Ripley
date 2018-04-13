@@ -1,0 +1,85 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: plobon@indracompany.com"
+      },
+      {
+        "line": 2,
+        "value": "# encoding: iso-8859-1"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Realizar CotaÃ§Ã£o",
+        "description": "",
+        "id": "alteraã§ã£o-de-autorizaã§ã£o;realizar-cotaã§ã£o",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19064721216,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CT01 - Acessar a tela inicial",
+            "match": {
+              "location": "Teste.acessarPaginaInicial()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9701831194,
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d65.0.3325.181)\n  (Driver info: chromedriver\u003d2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027CARAUJOPW1001\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\caraujo\\AppData\\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}\nSession ID: 202be99207bc8b321df32c4b5e1918f9\n*** Element info: {Using\u003did, value\u003dember-power-select-typeahead-input-ember805}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:416)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat teste.Teste.realizarBusca(Teste.java:29)\r\n\tat ✽.When CT01 - Fazer uma busca qualquer(src/test/java/execution/ct001.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "CT01 - Fazer uma busca qualquer",
+            "match": {
+              "location": "Teste.realizarBusca()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "CT01 - Escolher um carro particular",
+            "match": {
+              "location": "Teste.escolherCarro()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "CT01 - Escolher um seguro de carro",
+            "match": {
+              "location": "Teste.escolherSeguroDeCarro()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@CT01"
+          }
+        ]
+      }
+    ],
+    "name": "AlteraÃ§Ã£o de AutorizaÃ§Ã£o",
+    "description": "Eu como UsuÃ¡rio comum\nDesejo fazer qualquer coisa no site da Porto",
+    "id": "alteraã§ã£o-de-autorizaã§ã£o",
+    "keyword": "Feature",
+    "uri": "src/test/java/execution/ct001.feature"
+  }
+]

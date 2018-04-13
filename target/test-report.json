@@ -1,0 +1,20 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: plobon@indracompany.com"
+      },
+      {
+        "line": 2,
+        "value": "# encoding: iso-8859-1"
+      }
+    ],
+    "line": 3,
+    "name": "AlteraÃ§Ã£o de AutorizaÃ§Ã£o",
+    "description": "Eu como UsuÃ¡rio comum\r\nDesejo fazer qualquer coisa no site da Porto",
+    "id": "alteraã§ã£o-de-autorizaã§ã£o",
+    "keyword": "Feature",
+    "uri": "src/test/java/execution/ct001.feature"
+  }
+]
